@@ -1,1 +1,8 @@
 -- Add your SQL here
+CREATE TABLE Shipping (
+    ID INT,
+    CUSTOMER_ID INT,
+    ORDER_DATE DATE,
+    SHIPPING_DATE DATE,
+    PRIMARY KEY (ID)
+);
