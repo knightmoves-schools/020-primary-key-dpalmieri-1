@@ -1,8 +1,8 @@
 -- Add your SQL here
 CREATE TABLE Shipping (
-    ID INT,
+    ITEM_ID INT,
     CUSTOMER_ID INT,
     ORDER_DATE DATE,
     SHIPPING_DATE DATE,
-    PRIMARY KEY (ID)
+    PRIMARY KEY (ITEM_ID)
 );
